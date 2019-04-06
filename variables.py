@@ -7,10 +7,16 @@ path_images = "Images/"
 def bogus(x,y=None):
     return x
 
+import random
+def bogus1(x,y=None):
+    return (random.random()*20)
+
 # Models and predict functions
 models = {
     'vdsr' : bogus,
-    'srcnn' : bogus
+    'srcnn' : bogus,
+    'srcnn1' : bogus,
+    'srcnn2' : bogus
 }
 
 # Function Definition:
@@ -21,8 +27,8 @@ models = {
 
 # Metrics evaluated for each model
 metrics = {
-    'psnr' : bogus,
-    'ssim' : bogus
+    'psnr' : bogus1,
+    'ssim' : bogus1
 }
 
 # Function Definition:
@@ -32,7 +38,7 @@ metrics = {
 
 
 # Image names used for comparison
-images = ['image1','image2','image3','image4','image5','image6']
+images = ['image1','image2','image3']
 
 scaling_factor = 4
 scaling_factors = [2, 4, 8, 10]

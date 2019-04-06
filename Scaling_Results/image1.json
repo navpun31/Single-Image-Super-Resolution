@@ -1,1 +1,1 @@
-{"2": {"psnr": "Images/image1.png", "ssim": "Images/image1.png"}, "4": {"psnr": "Images/image1.png", "ssim": "Images/image1.png"}, "8": {"psnr": "Images/image1.png", "ssim": "Images/image1.png"}, "10": {"psnr": "Images/image1.png", "ssim": "Images/image1.png"}}
+{"2": {"psnr": 0.6333025783375024, "ssim": 5.530784803011817}, "4": {"psnr": 14.874320896739777, "ssim": 0.1039601832793724}, "8": {"psnr": 16.34562707957008, "ssim": 15.533978976003013}, "10": {"psnr": 15.066401837592407, "ssim": 14.210888203953417}}
