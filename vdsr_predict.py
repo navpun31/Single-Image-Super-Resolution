@@ -19,7 +19,7 @@ def colorize(y, ycrcb):
     return img
 
 def predict(img_bgr):
-    model = torch.load('model_epoch_50.pth', map_location=lambda storage, loc: storage)["model"]
+    model = torch.load('model_vdsr.pth', map_location=lambda storage, loc: storage)["model"]
     im_b_ycrcb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2YCR_CB)
     im_b_y = im_b_ycrcb[:,:,0].astype(float)
     im_input = im_b_y/255.
