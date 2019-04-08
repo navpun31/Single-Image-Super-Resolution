@@ -38,7 +38,7 @@ metrics = {
 images = ['image1','image2','image3']
 
 scaling_factor = 4
-scaling_factors = [2, 4, 8]
+scaling_factors = [2, 4, 6, 8]
 scaling_model = 'vdsr'
 
 hr_dim = [512,512]
