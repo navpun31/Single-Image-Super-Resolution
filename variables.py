@@ -24,8 +24,7 @@ models = {
 metrics = {
     'psnr' : psnr,
     'ssim' : ssim,
-    'mse' : mse,
-    'uqi' : uqi
+    'mse' : mse
 }
 
 # Function Definition:
@@ -35,9 +34,9 @@ metrics = {
 
 
 # Image names used for comparison
-images = ['image1','image2','image3']
+images = ['Architecture','Penguin','Wolf','Basket','Portrait']
 
-scaling_factor = 4
+scaling_factor = 6
 scaling_factors = [2, 4, 6, 8]
 scaling_model = 'vdsr'
 
